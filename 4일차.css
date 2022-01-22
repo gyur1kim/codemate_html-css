@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'SANGJUDajungdagam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANGJUDajungdagam.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Uiyeun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Uiyeun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0 15%;
+}
+h2{
+    font-family: 'SANGJUDajungdagam';
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px;
+}
+h2 > span {
+    background : linear-gradient(to right, #533264, #c485c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+hr{
+    width: 200px;
+    background: lightgray;
+    border: 1px solid lightgray;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+div.todo{
+    font-family: Uiyeun;
+    font-size: 1.5em;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    width: 50%;
+    border-radius: 3px 0 0 3px;
+    background: #f2eff6;
+    border-left: 5px solid #6d48a6;
+}
+div.todo:hover{
+    background: #e5e0ec;
+    border-left: 5px solid #613e98;
+}
+
+label{
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+    text-align: left;
+}
+label:hover{
+    cursor: pointer;
+}
+input:checked + label{
+    color: gray;
+    text-decoration-line: line-through;
+}
+
+#add{
+    font-family: Uiyeun;
+    font-size: 1em;
+    display: inline-block;
+    margin-left: 5px;
+    width: 90%;
+    border: none;
+    background: #f2eff6;
+}
