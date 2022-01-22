@@ -1,0 +1,121 @@
+/*첫번째 열*/
+.col1{
+    flex: 0.25;
+
+    display: flex;
+    flex-direction: column;
+}
+.row1-visit{
+    flex: 0.1;
+    text-align: center;
+    font-size: 0.8em;
+}
+.row2-profile{
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    flex: 0.5;
+}
+.aboutMe{
+    font-size: 1.4em;
+    font-family: SlowSlow;
+    flex: 0.85;
+}
+.name{
+    flex: 0.15;
+    font-size: 1.4em;
+    font-family: SlowSlow;
+    font-weight: bold;
+}
+
+/*두번째 열*/
+.col2{
+    flex: 0.65;
+
+    display: flex;
+    flex-direction: column;
+}
+.row3-title{
+    flex: 0.1;
+
+    display: flex;
+}
+/*두번째 열 - 제목부분*/
+.title{
+    flex: 0.5;
+    text-align: left;
+}
+.url{
+    flex: 0.5;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.row4-main{
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+}
+.updated{
+    flex: 0.4;
+}
+.newsContainer{
+    display: flex;
+}
+.cont>div, .contCount>div{
+    margin: 2px 0;
+}
+.cont{
+    flex: 0.5;
+
+    font-family: Pretendard-Regular;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.cont .post{
+    background-color: #ec6d6d;
+    padding: 0.15em;
+    font-size: 0.85em;
+    border-radius: 5px;
+    margin-right: 3px;
+    color: white;
+}
+.cont .album{
+    background-color: #6486ce;
+    padding: 0.15em;
+    font-size: 0.85em;
+    border-radius: 5px;
+    margin-right: 3px;
+    color: white;
+}
+.contCount{
+    flex: 0.5;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.contCount>div{
+    font-family: Pretendard-Regular;
+    flex-basis: 50%;
+    border-bottom: 1px dashed gray;
+}
+.contCount span{
+    font-family: PFStardust;
+    color: #4b83b2;
+    font-size: 0.5em;
+    line-height: 0;
+}
+.miniroom{
+    flex: 1;
+}
+
+/*세번째 열*/
+.col3{
+    flex: 0.1;
+}
