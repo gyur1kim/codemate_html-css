@@ -1,122 +1,65 @@
-/*첫번째 열*/
-
-.col1{
-    flex: 0.25;
-
-    display: flex;
-    flex-direction: column;
-}
-.row1-visit{
-    flex: 0.1;
-    text-align: center;
-    font-size: 0.8em;
-}
-.row2-profile{
-    flex: 2;
-
-    display: flex;
-    flex-direction: column;
-}
-.profile{
-    flex: 0.5;
-}
-.aboutMe{
-    font-size: 1.4em;
-    font-family: SlowSlow;
-    flex: 0.85;
-}
-.name{
-    flex: 0.15;
-    font-size: 1.4em;
-    font-family: SlowSlow;
-    font-weight: bold;
-}
-
-/*두번째 열*/
-.col2{
-    flex: 0.65;
-
-    display: flex;
-    flex-direction: column;
-}
-.row3-title{
-    flex: 0.1;
-
-    display: flex;
-}
-/*두번째 열 - 제목부분*/
-.title{
-    flex: 0.5;
-    text-align: left;
-}
-.url{
-    flex: 0.5;
-    text-align: right;
-    font-size: 0.8em;
-}
-
-.row4-main{
-    flex: 2;
-
-    display: flex;
-    flex-direction: column;
-}
-.updated{
+/*home 내용*/
+.updated-container{
     flex: 0.4;
 }
-.newsContainer{
+.news-container{
     display: flex;
 }
-.cont>div, .contCount>div{
-    margin: 2px 0;
+.content>div, .content-count>div{
+    margin: 3px 0;
 }
-.cont{
+.content{
     flex: 0.5;
 
-    font-family: Pretendard-Regular;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
 }
-.cont .post{
+.content .post{
     background-color: #ec6d6d;
-    padding: 0.15em;
-    font-size: 0.85em;
-    border-radius: 5px;
-    margin-right: 3px;
+    padding: 0.15em 0.4em;
+    font-size: 0.7em;
+    border-radius: 3px;
+    margin-right: 6px;
     color: white;
 }
-.cont .album{
+.content .album{
     background-color: #6486ce;
-    padding: 0.15em;
-    font-size: 0.85em;
-    border-radius: 5px;
-    margin-right: 3px;
+    padding: 0.15em 0.4em;
+    font-size: 0.7em;
+    border-radius: 3px;
+    margin-right: 6px;
     color: white;
 }
-.contCount{
+
+.content-count{
     flex: 0.5;
 
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
-.contCount>div{
-    font-family: Pretendard-Regular;
+.content-count>div{
     flex-basis: 50%;
     border-bottom: 1px dashed gray;
 }
-.contCount span{
+.content-count span{
     font-family: PFStardust;
     color: #4b83b2;
     font-size: 0.5em;
     line-height: 0;
 }
+
 .miniroom{
     flex: 1;
 }
+.miniroom img{
+    margin-top: 20px;
+}
 
-/*세번째 열*/
-.col3{
-    flex: 0.1;
+.main-title{
+    font-weight: bolder;
+    color: #4b83b2;
+    border-bottom: 1px solid gray;
+    height: 24px;
 }
