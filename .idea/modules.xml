@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/모각코_html+css심화과정.iml" filepath="$PROJECT_DIR$/.idea/모각코_html+css심화과정.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/codemate_html-css.iml" filepath="$PROJECT_DIR$/.idea/codemate_html-css.iml" />
+>>>>>>> 0924d05038070e5b325c1761387835fa43d273b8
     </modules>
   </component>
 </project>
