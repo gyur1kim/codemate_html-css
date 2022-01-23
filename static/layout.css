@@ -13,6 +13,7 @@ body{
     width: 960px;
     height: 660px;
     background-color: #b2d4e1;
+    border: 1px solid #a2d1e3;
     border-radius: 9px;
     position: relative;
     margin: 100px auto;

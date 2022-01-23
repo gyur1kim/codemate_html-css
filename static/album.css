@@ -1,0 +1,28 @@
+.main{
+    overflow: hidden;
+}
+
+.album-container{
+    display: block;
+    height: 100%;
+    overflow: auto;
+}
+.album-title{
+    padding: 6px 10px;
+    margin-bottom: 15px;
+    background-color: #dedede;
+}
+.album-title>span{
+    font-size: 0.7em;
+}
+.album-image{
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+.album-posting{
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+.album-post:last-child .album-posting{
+    margin-bottom: 0;
+}
