@@ -1,0 +1,81 @@
+.main{
+    overflow: hidden;
+}
+
+.calender{
+    border: 1px solid #d3d3d3;
+    padding: 10px 7px;
+
+    display: flex;
+}
+.date{
+    flex: 0.15;
+    text-align: center;
+    color: #4b83b2;
+    font-weight: bold;
+}
+.day{
+    flex: 0.85;
+    padding-left: 7px;
+}
+.day>div{
+    display: inline-block;
+    width: 17px;
+    text-align: center;
+    color: gray;
+}
+.day>div:nth-child(7n+1){
+    /*토요일*/
+    color: blue;
+}
+.day>div:nth-child(7n+2), .day>div:last-child{
+    /*일요일, 31일 설날*/
+    color: red;
+}
+
+.diary-container{
+    display: block;
+    height: 100%;
+    margin-top: 30px;
+    overflow: auto;
+}
+.diary-post-container{
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.diary-post-container:nth-last-child(2){
+    margin-bottom: 0;
+}
+.diary-date{
+    color: #4b83b2;
+}
+.diary-post{
+    margin-top: 20px;
+    text-align: center;
+}
+.secret-diary{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+.secret-diary:hover button{
+    background-color: darkorange;
+}
+.secret-diary>button{
+    transition: background-color 500ms;
+
+    width: 200px;
+    padding: 15px;
+    font-family: DOSGothic;
+    color: white;
+    background-color: #ffffff;
+    border: none;
+}
+.secret-diary>button:hover{
+    background-color: #dc7900;
+    cursor: pointer;
+}
+.icon{
+    margin-right: 1em;
+}

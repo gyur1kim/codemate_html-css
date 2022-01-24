@@ -49,6 +49,7 @@ body{
 .visit{
     flex: 0.1;
     text-align: center;
+    line-height: 28px;
     font-size: 0.8em;
 }
 .profile{
@@ -119,10 +120,12 @@ body{
 .title{
     flex: 0.5;
     text-align: left;
+    line-height: 28px;
 }
 .url{
     flex: 0.5;
     text-align: right;
+    line-height: 28px;
     font-size: 0.8em;
 }
 .main{
