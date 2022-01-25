@@ -44,9 +44,6 @@
     padding: 20px;
     margin-bottom: 30px;
 }
-.diary-post-container:nth-last-child(2){
-    margin-bottom: 0;
-}
 .diary-date{
     color: #4b83b2;
 }
@@ -55,7 +52,6 @@
     text-align: center;
 }
 .secret-diary{
-    padding-top: 30px;
     width: 100%;
     text-align: center;
 }
