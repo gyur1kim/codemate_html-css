@@ -1,0 +1,70 @@
+.main{
+    overflow: hidden;
+}
+.guestbook-container{
+    display: block;
+    height: 100%;
+    overflow: auto;
+}
+
+.guestbook{
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+.guestbook:last-child{
+    margin-bottom: 0;
+}
+
+.guestbook-name{
+    flex: 0.1;
+    border: none;
+    background-color: #dedede;
+    font-size: 0.9rem;
+    padding: 6px 11px;
+    margin-bottom: 20px;
+}
+.fas{
+    font-size: 0.8em;
+}
+.guestbook-name span.date{
+    font-size: 0.75em;
+}
+.guestbook-name span.guest-link{
+    color: #3572a4;
+    font-weight: bolder;
+}
+.guestbook-content{
+    flex: 1.5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guestbook-image{
+    flex: 0 0 8rem;
+    height: 8rem;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guestbook-image>img {
+    width: 90%;
+}
+.guestbook-post{
+    flex: 16rem;
+    padding-left: 20px;
+}
+
+.guestbook-background-1{
+    background-image: url("image/visitor-background1.jpg");
+}
+.guestbook-background-2{
+    background-image: url("image/visitor-background2.jpg");
+}
+.guestbook-background-3{
+    background-image: url("image/visitor-background3.jpg");
+}
