@@ -118,15 +118,21 @@ body{
     display: flex;
 }
 .title{
-    flex: 0.5;
+    flex: 0.3;
     text-align: left;
     line-height: 28px;
 }
 .url{
-    flex: 0.5;
+    flex: 0.7;
     text-align: right;
     line-height: 28px;
     font-size: 0.8em;
+}
+.url a{
+    text-decoration: none;
+}
+.url a:visited{
+    color: black;
 }
 .main{
     flex: 2;
